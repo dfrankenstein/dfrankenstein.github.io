@@ -1,0 +1,52 @@
+.navbar{
+    background-color: white;
+    position: fixed;
+    width: 100%;
+    top: 0;
+}
+.navbar li{
+    display: inline-block;
+    padding: 0px 10px;
+}
+
+.navbar a{  /* alle a's in class navbar */
+    text-decoration: none;
+    color: black;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.banner {
+    background-image: url(../images/vrouw_laptop.png);
+    min-height: 550px;
+    max-height: 500px;
+    background-size: cover;
+    color: white;
+    margin-top: 50px;
+    text-align: center;
+    padding: 10px 0px;
+}
+
+.nogbedenken{
+   background-image: url(../images/ladies_kitchen.png); 
+   background-size: cover;
+   padding: 3px 3px;
+}
+.nogbedenken h3{
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 30px;
+    font-style: italic;
+    font-weight: 500;
+}
+
+#header-icon{
+    height: 100px;
+    width: 100px;
+    filter: drop-shadow(1px 1px 1px black)
+
+}
+
+a.blue{ /*every anchor tag with a class of blue*/
+color:blue;
+}
+
