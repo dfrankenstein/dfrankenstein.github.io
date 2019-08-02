@@ -1,3 +1,7 @@
+p {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+
 .navbar{
     background-color: white;
     position: fixed;
@@ -16,20 +20,30 @@
 }
 
 .banner {
-    background-image: url(../images/vrouw_laptop.png);
+    background-image: url(../images/vrouw_laptop2.png);
+    background-color: #ffcccc;
     min-height: 550px;
-    max-height: 500px;
-    background-size: cover;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center bottom; 
     color: white;
     margin-top: 50px;
     text-align: center;
     padding: 10px 0px;
 }
 
+.banner h1 {
+    font-family: Geneva, Tahoma, Verdana, sans-serif;
+}
+
 .nogbedenken{
-   background-image: url(../images/ladies_kitchen.png); 
-   background-size: cover;
-   padding: 3px 3px;
+   background-image: url(../images/bureau-items.png); 
+   background-color: #F5E9DC;
+   background-size: contain;
+   background-position: center bottom; 
+   background-repeat: no-repeat;
+   min-height: 350px;
+   padding: 30px 10px;
 }
 .nogbedenken h3{
     color: white;
@@ -38,6 +52,18 @@
     font-style: italic;
     font-weight: 500;
 }
+
+.answer {
+    border: 1px solid #466995;
+    margin: 20px;
+    display: inline-block;
+  }
+  
+  .answer:hover {
+    background: #C0D6DF;
+    color: #FFF;
+  }
+
 
 #header-icon{
     height: 100px;
