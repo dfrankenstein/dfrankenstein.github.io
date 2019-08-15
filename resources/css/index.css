@@ -79,3 +79,9 @@ a.blue{ /*every anchor tag with a class of blue*/
 color:blue;
 }
 
+
+@media only screen and (max-width: 470px) { /* telefoon versie */
+    .banner{
+        min-height: 400px;
+    }
+}
